@@ -1,0 +1,37 @@
+{
+  "prog": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "invoiceTerms": "Standard terms apply",
+        "invoiceLineDescription": "",
+        "priceChangePercent": "0",
+        "priceChangeAmount": "0"
+      },
+      {
+        "invoiceTerms": "Free month 2 of 2",
+        "invoiceLineDescription": "Free month 2 of 2",
+        "priceChangePercent": "-100",
+        "priceChangeAmount": "0"
+      },
+      {
+        "invoiceTerms": "12% discount month 4 of 11",
+        "invoiceLineDescription": "12% discount month 4 of 11",
+        "priceChangePercent": "-12",
+        "priceChangeAmount": "0"
+      },
+      {
+        "invoiceTerms": "35% increase month 3 of 6",
+        "invoiceLineDescription": "35% increase month 3 of 6",
+        "priceChangePercent": "35",
+        "priceChangeAmount": "0"
+      }
+    ],
+    "signature_instructions": "Given the fields `invoiceTerms`, produce the fields `invoiceLineDescription`, `priceChangePercentage`, `priceChangeAmount`.",
+    "signature_prefix": "Price Change Amount:",
+    "extended_signature_instructions": "Given the fields `invoiceTerms`, produce the fields `invoiceLineDescription`, `priceChangePercentage`, `priceChangeAmount`.",
+    "extended_signature_prefix": "Price Change Amount:"
+  }
+}
